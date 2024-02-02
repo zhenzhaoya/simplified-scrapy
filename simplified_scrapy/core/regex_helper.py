@@ -136,6 +136,11 @@ def getListByReg(html, regex, group=0, start=None, end=None, before=None):
     return strs
 
 
+def regFindall(html, regex):
+    pattern = _getRegex(regex)
+    return pattern.findall(html)
+    
+
 def regSearch(html, regex, group=0):
     pattern = _getRegex(regex)
     tmp = pattern.search(html)

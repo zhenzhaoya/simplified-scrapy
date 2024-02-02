@@ -30,30 +30,6 @@ ExtractModel = Dict({
   })
 
 class Extracter:
-  # _models={
-  #   'auto_all':{
-  #     "Type": 2,
-  #     "UrlDomains": "all_domain"
-  #   },
-  #   'auto_lst_obj':{
-  #     "Type": 5,
-  #     "MergeUrl": False
-  #   },
-  #   'auto_lst_url':{
-  #     "Type": 4,
-  #     "MergeUrl": False
-  #   },
-  #   'auto_main_2':{
-  #     "Type": 2
-  #   },
-  #   'auto_main':{
-  #     "Type": 2,
-  #     "UrlDomains": "main_domain"
-  #   },
-  #   'auto_obj':{
-  #     "Type": 3
-  #   }
-  # }
   def __init__(self):
     try:
       self._iniModels('models/')
